@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import restaurantFoodImage from '../../assests/images/restaurant-food.jpg';
+import restaurantFoodImage from '../../assests/images/indian-chef-serving-food.webp';
 import './Hero.css';
 
 export default function Hero() {

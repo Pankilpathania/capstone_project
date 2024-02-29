@@ -6,21 +6,21 @@ import TestimonialCard from './TestimonialCard';
 
 const customers = [
   {
-    fullName: 'Ajay Verma',
+    fullName: 'Megha',
     image: customer1Image,
     rating: [1, 1, 1, 1, 0.5],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    fullName: 'Gopesh Chawla',
+    fullName: 'Pankil Pathania',
     image: customer2Image,
     rating: [1, 1, 1, 1, 1],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    fullName: 'Pankil Pathania',
+    fullName: 'Aarushi',
     image: customer3Image,
     rating: [1, 1, 1, 1, 0.5],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 

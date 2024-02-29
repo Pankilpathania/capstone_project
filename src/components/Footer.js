@@ -1,40 +1,19 @@
-import {
-    faFacebook,
-    faTwitter,
-    faInstagram,
-    faYoutube
-  } from '@fortawesome/free-brands-svg-icons';
-  import {
-    faEnvelope,
-    faLocationDot,
-    faPhone
-  } from '@fortawesome/free-solid-svg-icons';
+
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
   import { Link } from 'react-router-dom';
   import './Footer.css';
   import logoImage from '../assests/images/logo-white.png';
-
+  import { contacts, socials, navLinks } from '../constants/constant';
 
 export default function Footer() {
-    const contacts = [
-        { icon: faLocationDot, info: '678 Pisa Ave, Chicago, IL 60611', },
-        { icon: faPhone, info: '(312) 593-2744', },
-        { icon: faEnvelope, info: 'customer@littlelemon.com', },
-      ];
-    const navLinks = ['Home', 'About', 'Menu', 'Reservation', 'Order Online', 'Login'];
-    const socials = [
-        { icon: faFacebook, name: 'facebook', },
-        { icon: faTwitter, name: 'twitter', },
-        { icon: faInstagram, name: 'instagram', },
-        { icon: faYoutube, name: 'youtube', },
-      ];
+
     return (
         <footer className="site-footer">
           <div className="container grid">
-            <img 
-              className="site-footer-logo" 
-              src={logoImage} 
-              alt="Little Lemon" 
+            <img
+              className="site-footer-logo"
+              src={logoImage}
+              alt="Little Lemon"
             />
             <nav className="site-footer-nav">
               <h4>Sitemap</h4>

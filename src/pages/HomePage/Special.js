@@ -1,32 +1,31 @@
 import { Link } from 'react-router-dom';
-import bruschettaImage from '../../assests/images/bruschetta.jpg';
-import greekSaladImage from '../../assests/images/greek-salad.jpg';
-import lemonDessertImage from '../../assests/images/lemon-dessert.jpg';
+import rajma_chawal from '../../assests/images/rajma_chawal.png';
+import chole_bhature from '../../assests/images/chole_bhature.jpg';
+import rajasthani_thali from '../../assests/images/rajasthani_thali.jpg';
 import './Special.css';
 import MealCard from './MealCard';
 
 const meals = [
   {
-    name: 'Greek Salad',
-    image: greekSaladImage,
-    price: '$12.99',
-    description: `The famous greek salad of crispy lettuce, peppers, olives and 
-      our Chicago style feta cheese, garnished with crunchy garlic and rosemary 
-      croutons.`,
+    name: 'Rajma Chawal',
+    image: rajma_chawal,
+    price: '$6.99',
+    description: `Savor our North Indian comfort classic: Rajma Chawal. 
+    Slow-cooked kidney beans, aromatic Basmati rice, and flavorful spices for a satisfying meal.`,
   },
   {
-    name: 'Bruschetta',
-    image: bruschettaImage,
+    name: 'Chole bhature',
+    image: chole_bhature,
     price: '$5.99',
-    description: `Our Bruschetta is made from grilled bread that has been 
-      smeared with garlic and seasoned with salt and olive oil.`,
+    description: `Enjoy our tantalizing Chole Bhature: 
+    fluffy fried bread paired with spicy chickpea curry, a beloved North Indian street food delight.`,
   },
   {
-    name: 'Lemon Dessert',
-    image: lemonDessertImage,
-    price: '$5.00',
-    description: `This comes straight from grandma's recipe book, every last 
-      ingredient has been sourced and is as authentic as can be imagined.`,
+    name: 'Rajasthani Thali',
+    image: rajasthani_thali,
+    price: '$15.00',
+    description: `Experience the vibrant flavors of Rajasthan with our Rajasthani Thali: 
+    a colorful platter featuring authentic dishes showcasing the region's rich culinary heritage..`,
   },
 ];
 

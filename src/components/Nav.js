@@ -5,8 +5,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { useMediaQuery } from '@chakra-ui/react';
 import hamburger_menu from '../assests/images/hamburger_menu.svg';
 import Logo from  "../assests/images/Logo.svg";
-
-const nav = ['Home', 'About', 'Menu', 'Reservation', 'Order Online', 'Login'];
+import { navLinks as nav } from '../constants/constant';
 
 const BurgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
